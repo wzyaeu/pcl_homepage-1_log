@@ -33,7 +33,7 @@
                     <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
 		            </StackPanel>
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
@@ -98,7 +98,7 @@
                     <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版-公布内测版" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
 		            </StackPanel>
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
@@ -224,7 +224,7 @@
                     <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
 		            </StackPanel>
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
@@ -282,7 +282,7 @@
                     <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
 		            </StackPanel>
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
