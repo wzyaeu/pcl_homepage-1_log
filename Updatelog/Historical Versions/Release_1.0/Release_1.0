@@ -1,0 +1,134 @@
+<local:MyCard Title="原始主页提醒" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" >
+    	<StackPanel Margin="15,40,15,10">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,0" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="此界面是MY HOMEP的历史主页！" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,0" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="此页面砍掉了查看日志功能，以免更多错误。" />
+        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Right">
+        	<local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Right" ColorType="Highlight" Text="返回到主页" EventType="刷新主页" LogoScale="1" Logo="M900.745478 430.904767l-330.418307-308.008394c-16.679524-19.033077-40.82902-29.982212-66.411112-29.982212-25.172779 0-49.322274 10.846807-65.2855 28.8566L120.491656 430.802438c-15.860897 16.270211-20.465674 39.805736-11.665434 60.783052 8.80024 20.977316 29.163585 34.075347 51.880484 34.075347l28.651944 0 0 314.148096c0 48.708304 38.987109 88.309383 87.695413 88.309383l136.608374 0c17.702808 0 33.461377-14.325972 33.461377-32.02878L447.123813 687.032677c0-8.902568 5.832717-16.781853 14.735285-16.781853l96.393325 0c8.902568 0 15.656241 7.981613 15.656241 16.781853l0 208.954532c0 17.805136 14.837614 32.02878 32.540422 32.02878l136.608374 0c48.708304 0 88.616369-39.498751 88.616369-88.309383l0-314.148096 28.549615 0c22.61457 0 42.977915-13.098031 51.778155-33.973019C921.006495 470.812831 916.504047 447.174978 900.745478 430.904767L900.745478 430.904767 900.745478 430.904767M900.745478 430.904767 900.745478 430.904767z" />
+		<local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Right" ColorType="Highlight" Text="返回到日志" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/Updatelog/updatelog.json" LogoScale="1" Logo="M96 652.8c-19.2 0-38.4-19.2-38.4-38.4V409.6c0-19.2 19.2-38.4 38.4-38.4s38.4 19.2 38.4 38.4v204.8c0 25.6-12.8 38.4-38.4 38.4z M1017.6 512c0-51.2-32-89.6-76.8-102.4V160c0-83.2-64-147.2-147.2-147.2H204.8C121.6 12.8 57.6 76.8 57.6 160v19.2c0 19.2 19.2 38.4 38.4 38.4s38.4-19.2 38.4-38.4v-19.2c0-38.4 32-70.4 70.4-70.4h595.2c38.4 0 70.4 32 70.4 70.4V409.6c-38.4 12.8-76.8 57.6-76.8 102.4 0 51.2 32 89.6 76.8 102.4v249.6c0 38.4-32 70.4-70.4 70.4H204.8c-38.4 0-70.4-32-70.4-70.4v-19.2c0-19.2-19.2-38.4-38.4-38.4s-38.4 19.2-38.4 38.4v19.2c0 83.2 64 147.2 147.2 147.2h595.2c83.2 0 147.2-64 147.2-147.2V620.8c44.8-19.2 70.4-57.6 70.4-108.8z m-108.8 51.2c-25.6 0-51.2-19.2-51.2-51.2 0-25.6 19.2-51.2 51.2-51.2s51.2 19.2 51.2 51.2c-6.4 25.6-25.6 51.2-51.2 51.2z M659.2 332.8H345.6c-19.2 0-38.4-12.8-38.4-38.4 0-19.2 19.2-38.4 38.4-38.4h313.6c19.2 0 38.4 19.2 38.4 38.4 0 25.6-19.2 38.4-38.4 38.4zM659.2 550.4H345.6c-19.2 0-38.4-12.8-38.4-38.4 0-19.2 19.2-38.4 38.4-38.4h313.6c19.2 0 38.4 19.2 38.4 38.4 0 25.6-19.2 38.4-38.4 38.4zM659.2 768H345.6c-19.2 0-38.4-19.2-38.4-38.4s19.2-38.4 38.4-38.4h313.6c19.2 0 38.4 19.2 38.4 38.4 0 25.6-19.2 38.4-38.4 38.4z M153.6 768H44.8c-19.2 0-38.4-19.2-38.4-38.4s19.2-38.4 38.4-38.4h108.8c19.2 0 38.4 19.2 38.4 38.4 0 25.6-19.2 38.4-38.4 38.4z M153.6 332.8H44.8c-25.6 0-38.4-12.8-38.4-38.4 0-19.2 12.8-38.4 38.4-38.4h108.8c19.2 0 38.4 19.2 38.4 38.4 0 25.6-19.2 38.4-38.4 38.4z" />
+	</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="" Margin="0,0,0,0" HasMouseAnimation="False"> <!--开头-->
+    <StackPanel Margin="25,40,23,40">
+		
+        <TextBlock Margin="0,0,0,1" FontSize="35" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold" Foreground="{DynamicResource ColorBrush2}" Block.TextAlignment="Center"
+                    Text="哈喽！又是方气满满的一天！"/>
+		<TextBlock Margin="0,0,0,10" FontSize="24" Grid.Column="0" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold" Foreground="{DynamicResource ColorBrush4}" Block.TextAlignment="Center" Text="{Binding Source={x:Static sys:DateTime.Now}, StringFormat='yyyy年MM月dd日'}" xmlns:sys="clr-namespace:System;assembly=mscorlib" FontFamily="微软雅黑" />
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyTextButton Margin="0,9,0,4" ToolTip="…等等！这个文本亮了起来！难道说..." HorizontalAlignment="Left" EventType="弹出窗口" EventData="彩蛋|哇哦！你竟然发现了这个彩蛋，你还挺厉害的嘛！" Text="今天又有什么好事发生？" />
+			<local:MyIconTextButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" ColorType="Highlight" Text="刷新主页" EventType="刷新主页" LogoScale="1" Logo="M981.723429 590.482286h0.146285a475.574857 475.574857 0 0 1-945.298285-73.142857A475.428571 475.428571 0 0 1 512 41.910857c139.776 0 269.312 60.928 358.473143 163.620572v-66.852572a58.514286 58.514286 0 1 1 116.955428 0v206.116572a58.514286 58.514286 0 0 1-58.514285 58.514285l-225.206857-2.194285a58.514286 58.514286 0 1 1 0.292571-116.882286l81.334857 1.462857A357.229714 357.229714 0 0 0 512 158.793143a358.473143 358.473143 0 1 0 351.085714 431.689143h0.073143c3.145143-32.621714 22.820571-59.538286 56.612572-59.538286s61.805714 25.746286 61.952 59.538286z" />
+			
+    	</StackPanel>
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="" Margin="0,0,0,15" CanSwap="True"  HasMouseAnimation="False">
+	<StackPanel Margin="30,20,23,20">
+		<TextBlock Margin="0,4,0,10" TextWrapping="Wrap" FontSize="13"  Foreground="{DynamicResource ColorBrush1}" Text="回声洞里还传来：{cave}" Block.TextAlignment="Center"/>
+		<TextBlock Margin="0,4,0,0" TextWrapping="Wrap" FontSize="13"  Foreground="{DynamicResource ColorBrush1}" Text="你知道吗：{hint}" Block.TextAlignment="Center"/>
+	</StackPanel>
+</local:MyCard>
+
+
+
+<local:MyCard Title="网站" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" >
+    	<StackPanel Margin="15,40,15,10">
+		<WrapPanel>
+			<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://i0.hdslb.com/bfs/static/jinkela/long/images/favicon.ico" Title="B站" Info="哔哩哔哩 (゜-゜)つロ 干杯~-bilibili" EventType="打开网页" EventData="https://www.bilibili.com" Type="Clickable" />
+			<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://www.mcmod.cn/images/favicon.ico" Title="MC百科" Info="最大的MC中文MOD百科" EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable" />
+			<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/e/e6/Site-logo.png/revision/latest?cb=20211229054835" Title="中文WIKI" Info="最详细的MC中文WIKI" EventType="打开网页" EventData="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" Type="Clickable" />
+			<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/e/e6/Site-logo.png/revision/latest?cb=20211229054835" Title="MC国际官网" Info="最详细的MC中文WIKI" EventType="打开网页" EventData="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" Type="Clickable" />
+		</WrapPanel>
+		</StackPanel>
+</local:MyCard>
+<local:MyCard Title="搜索输入" Margin="0,0,0,3" Grid.Column="1" VerticalAlignment="Top" CanSwap="True"><!--搜索输入-->
+	<local:MyTextBox Margin="75,6,40,5" Grid.Column="1" Name="neirong" Height="28" VerticalAlignment="Top"/>
+	<WrapPanel Margin="17,40,17,15">
+		<StackPanel Margin="0" Grid.Column="0" VerticalAlignment="Top">
+			<TextBlock Margin="0,7,0,5" FontSize="16" Foreground="{DynamicResource ColorBrush2}" Text="基础功能" />
+			
+				<local:MyListItem  Margin="1" Height="40" Grid.Column="0" Logo="pack://application:,,,/images/Blocks/CommandBlock.png" Title="下载文件" Info="PCL仅支持http://或https://开头的网址，一些网站无法下载" EventType="下载文件" EventData="{Binding ElementName=neirong,Path=Text}" Type="Clickable" />
+				<local:MyListItem  Margin="1" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="打开网页" Info="打开输入的链接" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://cn.bing.com/search?q={0}&quot;}" Type="Clickable" />
+				<local:MyListItem  Margin="1" Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="打开文件" Info="打开输入内容所指向的文件，如是目录则打开文件管理器" EventType="打开文件" EventData="{Binding ElementName=neirong,Path=Text}" Type="Clickable" />
+				<local:MyListItem  Margin="1" Logo="pack://application:,,,/images/Blocks/RedstoneBlock.png" Title="启动游戏" Info="启动输入的游戏" EventType="启动游戏" EventData="{Binding ElementName=neirong,Path=Text}" Type="Clickable" />
+			
+		</StackPanel>
+		<StackPanel Margin="0" Grid.Column="1" VerticalAlignment="Top">
+			<TextBlock Margin="0,7,0,5" FontSize="16" Foreground="{DynamicResource ColorBrush2}" Text="网站搜索" />
+			
+				<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://hotaigc.cn/imgs/sites/20230612_1686544103_BKX0y.png" Title="Bing搜索" Info="有求必应" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://cn.bing.com/search?q={0}&quot;}" Type="Clickable" />
+
+				<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://metaso.cn/favicon.ico" Title="秘塔AI搜索" Info="没有广告，直达结果" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://metaso.cn/?q={0}&quot;}" Type="Clickable" />
+
+				<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://www.baidu.com/favicon.ico" Title="百度搜索" Info="百度一下" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://www.baidu.com/s?wd={0}&quot;}" Type="Clickable" />
+
+				<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://i-blog.csdnimg.cn/blog_migrate/1633a916798b4150e5c980d27a3fae79.png" Title="Github搜索" Info="GitHub项目搜索" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://github.com/search?q={0}&quot;}" Type="Clickable" />
+
+				<local:MyListItem  Margin="1" Grid.Column="0" Logo="https://www.mcmod.cn/favicon.ico" Title="MC百科搜索" Info="MC百科MOD搜索" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://search.mcmod.cn/s?key={0}&quot;}" Type="Clickable" />
+			
+		</StackPanel>
+		<StackPanel Margin="0" Grid.Column="2" VerticalAlignment="Top">
+			<TextBlock Margin="0,7,0,5" Grid.Column="0" FontSize="16" Foreground="{DynamicResource ColorBrush2}" Text="类型" />
+			
+			<local:MyListItem  Margin="1" Grid.Column="1" Logo="https://www.mcmod.cn/favicon.ico" Title="MC百科MOD编号" Info="MC百科MOD编号" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://www.mcmod.cn/class/{0}.html&quot;}" Type="Clickable" />
+			<local:MyListItem  Margin="1" Grid.Column="1" Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="PCL反馈编号" Info="PCL反馈条目编号" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://github.com/Hex-Dragon/PCL2/issues/{0}&quot;}" Type="Clickable" />
+			<local:MyListItem  Margin="1" Grid.Column="1" Logo="https://www.mcnav.net/wp-content/uploads/2021/07/1696391166-Wiki.webp" Title="中文WIKI子界面" Info="中文Minecraft Wiki的子界面" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://zh.minecraft.wiki/w/{0}#方块&quot;}" Type="Clickable" />
+			<local:MyListItem  Margin="1" Grid.Column="1" Logo="https://www.mcnav.net/wp-content/uploads/2021/07/1696391166-Wiki.webp" Title="方块WIKI" Info="中文Minecraft Wiki的方块介绍" EventType="打开网页" EventData="{Binding ElementName=neirong,Path=Text,StringFormat=&quot;https://zh.minecraft.wiki/w/{0}#方块&quot;}" Type="Clickable" />
+		</StackPanel>
+	</WrapPanel>
+</local:MyCard>
+<Grid Margin="0,0,0,8">
+     <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1*"/>
+          <ColumnDefinition Width="80"/>
+          <ColumnDefinition Width="1*"/>
+     </Grid.ColumnDefinitions>
+     <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+     <TextBlock Text="更多功能" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
+</Grid>
+
+<local:MyCard Title="图片查看" Margin="0,0,0,10"   Grid.Column="1" CanSwap="True">
+    			<StackPanel Margin="20,35,15,15">
+					<Grid>
+	        			<Grid.ColumnDefinitions>
+	            			<ColumnDefinition Width="auto"/>
+							<ColumnDefinition Width="1*"/>
+							<ColumnDefinition Width="auto"/>
+							<ColumnDefinition Width="0.4*"/>
+							<ColumnDefinition Width="auto"/>
+							<ColumnDefinition Width="0.4*"/>
+	        			</Grid.ColumnDefinitions>
+						<TextBlock VerticalAlignment="Center" Margin="2,0,2,10" TextWrapping="Wrap" Grid.Column="0"  Foreground="{DynamicResource ColorBrush1}" Text="目录：" />
+						<local:MyTextBox Margin="2,0,2,10" Grid.Column="1" Name="p"  VerticalAlignment="Top"/>
+						<TextBlock VerticalAlignment="Center" Margin="5,0,0,10" TextWrapping="Wrap" Grid.Column="2"  Foreground="{DynamicResource ColorBrush1}" Text="高度：" />
+						<local:MyTextBox Margin="2,0,2,10" Grid.Column="3" Name="p_h"  VerticalAlignment="Top"/>
+						<TextBlock VerticalAlignment="Center" Margin="5,0,0,10" TextWrapping="Wrap" Grid.Column="4"  Foreground="{DynamicResource ColorBrush1}" Text="宽度：" />
+						<local:MyTextBox Margin="2,0,2,10" Grid.Column="5" Name="p_w"  VerticalAlignment="Top"/>
+	    			</Grid>
+					<local:MyHint Margin="10,0,10,5" Text="高度和宽度不要过于逆天！否则会发生不可预知的BUG！" />
+					<local:MyImage HorizontalAlignment="Center"  Width="{Binding ElementName=p_w,Path=Text}" VerticalAlignment="Top" Height="{Binding ElementName=p_h,Path=Text}" Source="{Binding ElementName=p,Path=Text}"/>
+    			</StackPanel>
+		</local:MyCard>
+
+
+<local:MyCard Title="" Margin="-30,0,-30,10" >
+    <StackPanel Margin="25,7,23,15">
+	<TextBlock TextWrapping="Wrap" Margin="0,20,0,10" HorizontalAlignment="Center" FontSize="15" Foreground="{DynamicResource ColorBrush2}" FontWeight="Bold" 
+                    Text="关于" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Center"
+                    Text="MY HOMEP Release-V1.0" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" 
+                    Text="作者：Wzsa/Wzyaeu（一个人）" />
+	<TextBlock TextWrapping="Wrap" Margin="50,10,50,2" HorizontalAlignment="Center" Block.TextAlignment="Center"
+                    Text="一位新手做的主页。" />
+	<TextBlock TextWrapping="Wrap" Margin="50,0,50,10" HorizontalAlignment="Center" Block.TextAlignment="Center"
+                    Text="^▽^" />
+	<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+		<local:MyButton Margin="0,0,5,0" Width="140" Height="35" HorizontalAlignment="Center" ColorType="Highlight" Padding="13,0,13,0" Text="作者B站主页" EventType="打开网页" EventData="https://space.bilibili.com/3493124936567128" />
+		<local:MyButton Margin="0,0,5,0" Width="140" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" Text="作者邮箱网址" EventType="复制文本" EventData="wzyaeu@163.com" />
+		
+    </StackPanel>
+</StackPanel>
+</local:MyCard>
+
