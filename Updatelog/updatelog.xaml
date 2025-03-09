@@ -17,7 +17,7 @@
      <TextBlock Text="当前版本" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
-<local:MyCard Title="Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
     <StackPanel Margin="15,40,15,10">
 		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
