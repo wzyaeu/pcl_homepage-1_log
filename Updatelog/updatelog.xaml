@@ -1,6 +1,6 @@
 <local:MyCard Title="前言" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" >
     	<StackPanel Margin="15,40,15,10">
-		
+	<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="20" Foreground="{DynamicResource ColorBrush2}" HorizontalAlignment="Center" Text="MY HOMEP更新日志" />
         <StackPanel Margin="0,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center">
             <TextBlock TextWrapping="Wrap" Height="35" Margin="0,17,0,0" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="本作者不经常更新，可能这个页面会荒废（但肯定会更的）" />
 
