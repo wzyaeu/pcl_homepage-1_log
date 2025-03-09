@@ -1,10 +1,12 @@
 <local:MyCard Title="前言" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" >
     	<StackPanel Margin="15,40,15,10">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,0" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="本作者不经常更新，可能这个页面会荒废（但肯定会更的）" />
-        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Right">
-        	<local:MyIconTextButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" ColorType="Highlight" Text="刷新日志缓存" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/updatelog_Reacquire/Reacquire.json" LogoScale="1" Logo="M981.723429 590.482286h0.146285a475.574857 475.574857 0 0 1-945.298285-73.142857A475.428571 475.428571 0 0 1 512 41.910857c139.776 0 269.312 60.928 358.473143 163.620572v-66.852572a58.514286 58.514286 0 1 1 116.955428 0v206.116572a58.514286 58.514286 0 0 1-58.514285 58.514285l-225.206857-2.194285a58.514286 58.514286 0 1 1 0.292571-116.882286l81.334857 1.462857A357.229714 357.229714 0 0 0 512 158.793143a358.473143 358.473143 0 1 0 351.085714 431.689143h0.073143c3.145143-32.621714 22.820571-59.538286 56.612572-59.538286s61.805714 25.746286 61.952 59.538286z" />
-			
-        	<local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Right" ColorType="Highlight" Text="返回到主页" EventType="刷新主页"  LogoScale="1" Logo="M900.745478 430.904767l-330.418307-308.008394c-16.679524-19.033077-40.82902-29.982212-66.411112-29.982212-25.172779 0-49.322274 10.846807-65.2855 28.8566L120.491656 430.802438c-15.860897 16.270211-20.465674 39.805736-11.665434 60.783052 8.80024 20.977316 29.163585 34.075347 51.880484 34.075347l28.651944 0 0 314.148096c0 48.708304 38.987109 88.309383 87.695413 88.309383l136.608374 0c17.702808 0 33.461377-14.325972 33.461377-32.02878L447.123813 687.032677c0-8.902568 5.832717-16.781853 14.735285-16.781853l96.393325 0c8.902568 0 15.656241 7.981613 15.656241 16.781853l0 208.954532c0 17.805136 14.837614 32.02878 32.540422 32.02878l136.608374 0c48.708304 0 88.616369-39.498751 88.616369-88.309383l0-314.148096 28.549615 0c22.61457 0 42.977915-13.098031 51.778155-33.973019C921.006495 470.812831 916.504047 447.174978 900.745478 430.904767L900.745478 430.904767 900.745478 430.904767M900.745478 430.904767 900.745478 430.904767z" />
+		
+        <StackPanel Margin="0,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock TextWrapping="Wrap" Height="35" Margin="0,17,0,0" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="本作者不经常更新，可能这个页面会荒废（但肯定会更的）" />
+
+        	<local:MyIconTextButton Margin="0,0,0,0" Height="35" HorizontalAlignment="Center" ColorType="Highlight" Text="刷新日志缓存" EventType="打开帮助" EventData="C:\Users\wzyae\Desktop\1.json" LogoScale="1" Logo="M981.723429 590.482286h0.146285a475.574857 475.574857 0 0 1-945.298285-73.142857A475.428571 475.428571 0 0 1 512 41.910857c139.776 0 269.312 60.928 358.473143 163.620572v-66.852572a58.514286 58.514286 0 1 1 116.955428 0v206.116572a58.514286 58.514286 0 0 1-58.514285 58.514285l-225.206857-2.194285a58.514286 58.514286 0 1 1 0.292571-116.882286l81.334857 1.462857A357.229714 357.229714 0 0 0 512 158.793143a358.473143 358.473143 0 1 0 351.085714 431.689143h0.073143c3.145143-32.621714 22.820571-59.538286 56.612572-59.538286s61.805714 25.746286 61.952 59.538286z" />
+			<!-- https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/updatelog_Reacquire/Reacquire.json -->
+        	<local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Center" ColorType="Highlight" Text="返回到主页" EventType="刷新主页"  LogoScale="1" Logo="M900.745478 430.904767l-330.418307-308.008394c-16.679524-19.033077-40.82902-29.982212-66.411112-29.982212-25.172779 0-49.322274 10.846807-65.2855 28.8566L120.491656 430.802438c-15.860897 16.270211-20.465674 39.805736-11.665434 60.783052 8.80024 20.977316 29.163585 34.075347 51.880484 34.075347l28.651944 0 0 314.148096c0 48.708304 38.987109 88.309383 87.695413 88.309383l136.608374 0c17.702808 0 33.461377-14.325972 33.461377-32.02878L447.123813 687.032677c0-8.902568 5.832717-16.781853 14.735285-16.781853l96.393325 0c8.902568 0 15.656241 7.981613 15.656241 16.781853l0 208.954532c0 17.805136 14.837614 32.02878 32.540422 32.02878l136.608374 0c48.708304 0 88.616369-39.498751 88.616369-88.309383l0-314.148096 28.549615 0c22.61457 0 42.977915-13.098031 51.778155-33.973019C921.006495 470.812831 916.504047 447.174978 900.745478 430.904767L900.745478 430.904767 900.745478 430.904767M900.745478 430.904767 900.745478 430.904767z" />
 	</StackPanel>
 	</StackPanel>
 </local:MyCard>
@@ -15,20 +17,44 @@
           <ColumnDefinition Width="1*"/>
      </Grid.ColumnDefinitions>
      <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
-     <TextBlock Text="当前版本" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+     <TextBlock Text="最新版本" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
-<local:MyCard Title="当前版本 Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
+<local:MyCard Title="最新版本 Release-V1.0-2" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
-		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
-		</StackPanel>
-        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
-		</StackPanel>
-	<StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+        <Grid Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/Grass.png" />
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
+		            </StackPanel>
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
+		            </StackPanel>
+                    <local:MyIconTextButton Margin="0,5,0,0" Height="35"  HorizontalAlignment="Center"  ToolTip="非页面上展示改动，无缓存页面" Text="此版本无缓存" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
+	            </StackPanel>
+            </local:MyCard>
+            <StackPanel Margin="0"  Grid.Column="1">
+                <Grid Margin="20,0,20,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+                    <TextBlock Text="详细信息" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+	                <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
+                </Grid>
+                <local:MyCard Title="更新条目" Margin="1"   Grid.Column="1" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	        <StackPanel Margin="15,40,15,10">
+                    <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
@@ -36,25 +62,20 @@
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
 		        </StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                 <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志存储位置" />
-	    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="历史界面缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="查看这个版本的主页是怎样的。如果版本太老旧，可能会删除缓存，从而无法查看。" />
-                <local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Center" ColorType="Highlight" Text="查看主页" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/Updatelog/Historical%20Versions/Release_1.0/Release_1.0.json" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
-		    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="备注" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="吾的任务完成啦！" />
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="把更新日志放到github上才能解决" />
-	     </StackPanel>
-        </local:MyCard>
+                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志的布局" />
+		        </StackPanel>
+                </local:MyCard>
+                <local:MyCard Title="备注" Margin="1"   Grid.Column="1" CanSwap="True" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="浅浅水个版本..." />
+	            </StackPanel>
+                </local:MyCard>
+	        </StackPanel>
+            
+        </Grid>
 	</StackPanel>
 </local:MyCard>
+
 <Grid Margin="0,0,0,8">
      <Grid.ColumnDefinitions>
           <ColumnDefinition Width="1*"/>
@@ -65,54 +86,104 @@
      <TextBlock Text="更新日志" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
-<local:MyCard Title="Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="2025/3/8 Beta-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
-		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
-		</StackPanel>
-        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
-		</StackPanel>
-	<StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+        <Grid Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版-公布内测版" />
+		            </StackPanel>
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/8" />
+		            </StackPanel>
+                    <local:MyIconTextButton Margin="0,5,0,0" Height="35"  HorizontalAlignment="Center" ColorType="Highlight" ToolTip="查看这个版本的主页是怎样的。如果版本太老旧，&#xA;可能会删除缓存，从而无法查看。" Text="查看此版本主页缓存" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/Updatelog/Historical%20Versions/Beta_1.0/Beta_1.0.json" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
+	            </StackPanel>
+            </local:MyCard>
+            <StackPanel Margin="0"  Grid.Column="1">
+                <Grid Margin="20,0,20,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+                    <TextBlock Text="详细信息" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+	                <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
+                </Grid>
+                <local:MyCard Title="更新条目" Margin="1"   Grid.Column="1" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	        <StackPanel Margin="15,40,15,10">
+                <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
-                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
-                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
 		        </StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志存储位置" />
-		    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="历史界面缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="查看这个版本的主页是怎样的。如果版本太老旧，可能会删除缓存，从而无法查看。" />
-                <local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Center" ColorType="Highlight" Text="查看主页" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/Updatelog/Historical%20Versions/Release_1.0/Release_1.0.json" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
-		    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="备注" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="吾的任务完成啦！" />
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="把更新日志放到github上才能解决" />
-	     </StackPanel>
-        </local:MyCard>
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•其他 内测版本初始版完成" />
+		        </StackPanel>
+                </local:MyCard>
+                <local:MyCard Title="备注" Margin="1"   Grid.Column="1" CanSwap="True" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="已上传至库" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="经历了较久搭建" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="所以才第一个版本就以1开头" />
+                    <Grid Margin="0,2,0,2">
+                        <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                        <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush1}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+                    </Grid>
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="学校放过我！" />
+	            </StackPanel>
+                </local:MyCard>
+	        </StackPanel>
+            
+        </Grid>
 	</StackPanel>
 </local:MyCard>
-<local:MyCard Title="Beta-V1.0-2" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="2025/3/9 Beta-V1.0-2" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
-		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
-		</StackPanel>
-        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
-		</StackPanel>
+        <Grid Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
+		            </StackPanel>
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
+		            </StackPanel>
+                    <local:MyIconTextButton Margin="0,5,0,0" Height="35"  HorizontalAlignment="Center"  ToolTip="非页面上展示改动，无缓存页面" Text="此版本无缓存" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
+	            </StackPanel>
+            </local:MyCard>
+            <StackPanel Margin="0"  Grid.Column="1">
+                <Grid Margin="20,0,20,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+                    <TextBlock Text="详细信息" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+	                <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
+                </Grid>
+                <local:MyCard Title="更新条目" Margin="1"   Grid.Column="1" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	        <StackPanel Margin="15,40,15,10">
                 <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
@@ -121,19 +192,13 @@
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
 		        </StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
                 <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 一些库中代码问题" />
-		    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="历史界面缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="非页面上展示改动，无缓存页面" />
-		    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="备注" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="库中文件数据老是读取不到（不是网络问题），需要重复修改主XAML还有版本文件让本地更新...真的好烦烦烦..." />
+		    
+		        </StackPanel>
+                </local:MyCard>
+                <local:MyCard Title="备注" Margin="1"   Grid.Column="1" CanSwap="True" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="库中文件数据老是读取不到（不是网络问题），需要重复修改主XAML还有版本文件让本地更新...真的好烦烦烦..." />
                 <Grid Margin="0,2,0,2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="1*"/>
@@ -141,53 +206,125 @@
                     <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush1}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
                 </Grid>
                 <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="距离踏进学校剩余24小时" />
-		    </StackPanel>
-        </local:MyCard>
+	            </StackPanel>
+                </local:MyCard>
+	        </StackPanel>
+            
+        </Grid>
 	</StackPanel>
 </local:MyCard>
-<local:MyCard Title="Beta-V1.0-1" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+
+<local:MyCard Title="2025/3/9 Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
-		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版-公布内测版" />
-		</StackPanel>
-        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/8" />
-		</StackPanel>
-	<StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+        <Grid Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/Grass.png" />
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
+		            </StackPanel>
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
+		            </StackPanel>
+                    <local:MyIconTextButton Margin="0,5,0,0" Height="35"  HorizontalAlignment="Center" ColorType="Highlight" ToolTip="查看这个版本的主页是怎样的。如果版本太老旧，&#xA;可能会删除缓存，从而无法查看。" Text="查看此版本主页缓存" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/Updatelog/Historical%20Versions/Release_1.0/Release_1.0.json" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
+	            </StackPanel>
+            </local:MyCard>
+            <StackPanel Margin="0"  Grid.Column="1">
+                <Grid Margin="20,0,20,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+                    <TextBlock Text="详细信息" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+	                <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
+                </Grid>
+                <local:MyCard Title="更新条目" Margin="1"   Grid.Column="1" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	        <StackPanel Margin="15,40,15,10">
+                    <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
-                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
-                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
 		        </StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•其他 内测版本初始版完成" />
-		    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="历史界面缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="查看这个版本的主页是怎样的。如果版本太老旧，可能会删除缓存，从而无法查看。" />
-                <local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Center" ColorType="Highlight" Text="查看主页" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/Updatelog/Historical%20Versions/Beta_1.0/Beta_1.0.json" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
-		    </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="备注" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="已上传至库" />
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="经历了较久搭建" />
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="所以才第一个版本就以1开头" />
-                <Grid Margin="0,2,0,2">
+                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志存储位置" />
+		        </StackPanel>
+                </local:MyCard>
+                <local:MyCard Title="备注" Margin="1"   Grid.Column="1" CanSwap="True" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="吾的任务完成啦！" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="把更新日志放到github上才能解决" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="虽然治标不治本，但还是能访问到了" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="之后再弄弄这个gitee" />
+	            </StackPanel>
+                </local:MyCard>
+	        </StackPanel>
+            
+        </Grid>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="2025/3/9 Release-V1.0-2" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="15,40,15,10">
+        <Grid Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/Grass.png" />
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
+		            </StackPanel>
+                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
+                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
+		            </StackPanel>
+                    <local:MyIconTextButton Margin="0,5,0,0" Height="35"  HorizontalAlignment="Center"  ToolTip="非页面上展示改动，无缓存页面" Text="此版本无缓存" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
+	            </StackPanel>
+            </local:MyCard>
+            <StackPanel Margin="0"  Grid.Column="1">
+                <Grid Margin="20,0,20,8">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="1*"/>
                     </Grid.ColumnDefinitions>
-                    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush1}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+                    <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
+                    <TextBlock Text="详细信息" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+	                <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
                 </Grid>
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="学校放过我！" />
-		    </StackPanel>
-        </local:MyCard>
+                <local:MyCard Title="更新条目" Margin="1"   Grid.Column="1" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	        <StackPanel Margin="15,40,15,10">
+                    <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
+		        </StackPanel>
+                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志的布局" />
+		        </StackPanel>
+                </local:MyCard>
+                <local:MyCard Title="备注" Margin="1"   Grid.Column="1" CanSwap="True" Height="auto" >
+                <StackPanel Margin="15,40,15,10">
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="浅浅水个版本..." />
+	            </StackPanel>
+                </local:MyCard>
+	        </StackPanel>
+            
+        </Grid>
 	</StackPanel>
 </local:MyCard>
