@@ -18,7 +18,7 @@
      <TextBlock Text="当前版本" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
-<local:MyCard Title="Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
+<local:MyCard Title="当前版本 Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
     <StackPanel Margin="15,40,15,10">
 		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
@@ -28,9 +28,7 @@
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
 		</StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+	<StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
@@ -38,8 +36,10 @@
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
 		        </StackPanel>
-                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志存储位置" />
-		    </StackPanel>
+        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	    <StackPanel Margin="15,40,15,10">
+                 <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志存储位置" />
+	    </StackPanel>
         </local:MyCard>
         <local:MyCard Title="历史界面缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
     	    <StackPanel Margin="15,40,15,10">
@@ -75,9 +75,7 @@
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
 		</StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+	<StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
@@ -85,6 +83,9 @@
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
 		        </StackPanel>
+        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	    <StackPanel Margin="15,40,15,10">
+                
                 <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志存储位置" />
 		    </StackPanel>
         </local:MyCard>
@@ -112,8 +113,6 @@
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
 		</StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
                 <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
@@ -122,6 +121,8 @@
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
 		        </StackPanel>
+        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	    <StackPanel Margin="15,40,15,10">
                 <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 一些库中代码问题" />
 		    </StackPanel>
         </local:MyCard>
@@ -154,9 +155,7 @@
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/8" />
 		</StackPanel>
-        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
-    	    <StackPanel Margin="15,40,15,10">
-                <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+	<StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
@@ -164,6 +163,9 @@
                     <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
                     <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
 		        </StackPanel>
+        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	    <StackPanel Margin="15,40,15,10">
+                
                 <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•其他 内测版本初始版完成" />
 		    </StackPanel>
         </local:MyCard>
