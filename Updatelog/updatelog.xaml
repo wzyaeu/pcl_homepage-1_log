@@ -18,11 +18,48 @@
      <TextBlock Text="更新日志" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
-<local:MyCard Title="Beta-V1.1 及其子版本" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
 		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版-内测版" />
+            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
+		</StackPanel>
+        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
+			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
+            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
+		</StackPanel>
+        <local:MyCard Title="更新条目" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	    <StackPanel Margin="15,40,15,10">
+                <StackPanel Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Left">
+			        <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="优化条" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="1" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="新增条" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
+                    <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="其他条" />
+                    <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="0" />
+		        </StackPanel>
+                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="•优化 更新日志存储位置" />
+		    </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="历史界面缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	    <StackPanel Margin="15,40,15,10">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="查看这个版本的主页是怎样的。如果版本太老旧，可能会删除缓存，从而无法查看。" />
+                <local:MyIconTextButton Margin="0,0,0,0" Height="35"  HorizontalAlignment="Center" ColorType="Highlight" Text="查看主页" EventType="打开帮助" EventData="https://raw.githubusercontent.com/wzyaeu/pcl_homepage-1_log/refs/heads/main/Updatelog/Historical%20Versions/Beta_1.0/Beta_1.0.json" LogoScale="1" Logo="M928.842245 512.091074c0-5.006014-0.846274-9.193383-1.086751-9.691733-0.182149-2.480494-1.028423-7.001461-1.815345-9.374508-0.210801-0.590448-0.484024-1.209548-0.724501-1.799996-0.424672-1.360997-0.876973-2.691295-1.390673-3.749394-76.871785-168.137395-242.376213-281.144168-411.782507-281.144168-169.375595 0-334.865697 112.902396-411.388535 280.130072-0.921999 1.815345-1.572822 3.553942-1.981121 5.066389-0.181125 0.49835-0.39295 0.967024-0.558725 1.406023-1.512447 4.430916-1.542122 7.514137-1.421372 6.712889-0.710175 3.251044-1.360997 9.722432-1.360997 9.722432-0.181125 1.949398-0.181125 3.50687 0.030699 5.442966 0 0 0.649799 5.65479 0.968048 6.80294 0.090051 1.602498 0.483001 3.931542 0.951675 6.048763l-0.030699 0c0.408299 1.814322 0.968048 3.568269 1.738597 5.291516 0.393973 1.330298 0.862647 2.570545 1.270946 3.507894 76.976162 168.166047 242.436588 281.20352 411.781484 281.20352 169.436994 0 334.941422-112.945375 410.936233-279.328823 1.177825-2.177596 1.935072-4.233418 2.448772-6.018064 0.2415-0.543376 0.454348-1.027399 0.604774-1.511423 1.331321-3.872191 1.602498-7.227612 1.481747-7.227612l-0.028653 0.029676C928.027693 520.921183 928.842245 516.89959 928.842245 512.091074zM872.717993 514.146896c-0.029676 0.121773-0.091074 0.272199-0.151449 0.393973-0.090051 0.36225-0.240477 0.785899-0.332575 1.209548-68.403926 147.420561-212.830293 246.337431-360.191502 246.337431-146.997935 0-291.168476-98.642624-360.252901-246.578931-0.166799-0.5137-0.287549-0.998747-0.468674-1.481747-0.030699-0.484024-0.12075-0.876973-0.150426-1.150196-0.060375-0.300852-0.12075-0.724501-0.166799-1.088798l0-0.3776c0.166799-0.620124 0.286526-1.239224 0.347924-1.919722 0.12075-0.36225 0.211824-0.710175 0.347924-1.103124C220.132094 360.89042 364.680235 261.928524 512.041444 261.928524c147.420561 0 291.940049 99.051947 360.161826 246.322082 0.060375 0.287549 0.121773 0.530073 0.212848 0.726547 0.060375 0.2415 0.119727 0.484024 0.240477 0.740874 0.151449 1.104147 0.272199 2.192945 0.423649 2.736321C872.899118 513.028423 872.809067 513.572822 872.717993 514.146896z M512.041444 373.060601c-76.598562 0-138.954749 62.325487-138.954749 138.939399 0 76.598562 62.356187 138.954749 138.954749 138.954749 76.598562 0 138.954749-62.356187 138.954749-138.954749C650.996193 435.386088 588.640006 373.060601 512.041444 373.060601zM512.041444 595.372849c-45.935192 0-83.371826-37.406958-83.371826-83.371826 0-45.950542 37.436634-83.356476 83.371826-83.356476 45.964868 0 83.373873 37.406958 83.373873 83.356476C595.414293 557.965891 558.006312 595.372849 512.041444 595.372849z" />
+		    </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="备注" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
+    	    <StackPanel Margin="15,40,15,10">
+                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="吾的任务完成啦！" />
+                <TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="把更新日志放到github上才能解决" />
+	     </StackPanel>
+        </local:MyCard>
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="Beta-V1.0-2" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="15,40,15,10">
+		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
+			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
+            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
 		</StackPanel>
         <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
@@ -43,7 +80,7 @@
         </local:MyCard>
         <local:MyCard Title="历史界面缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
     	    <StackPanel Margin="15,40,15,10">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="改动较少，无缓存页面" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="非页面上展示改动，无缓存页面" />
 		    </StackPanel>
         </local:MyCard>
         <local:MyCard Title="备注" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" HasMouseAnimation="False">
@@ -60,7 +97,7 @@
         </local:MyCard>
 	</StackPanel>
 </local:MyCard>
-<local:MyCard Title="Beta-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Beta-V1.0-1" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
 		<StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
 			<TextBlock Margin="0,0,5,0" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
