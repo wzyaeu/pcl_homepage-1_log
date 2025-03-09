@@ -1,7 +1,7 @@
 <local:MyCard Title="刷新日志缓存" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" >
 	<StackPanel Margin="15,40,15,30">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" HorizontalAlignment="Center" Block.TextAlignment="Center" Text="刷新帮助页面菜单以刷新日志缓存（点击下图右边按钮）" />
-		<local:MyButton Margin="0,0,5,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight" Text="切换至页面" EventType="切换页面" EventData="3|0" />
+		<local:MyButton Margin="0,0,5,10" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight" Text="切换至页面" EventType="切换页面" EventData="3|0" />
 		<local:MyImage Margin="0,0,0,10" Height="100" HorizontalAlignment="Center" Source="https://github.com/wzyaeu/pcl_homepage-1_log/blob/main/updatelog_Reacquire/Auxiliary_picture_1.png?raw=true" />
 	</StackPanel>
 </local:MyCard>
