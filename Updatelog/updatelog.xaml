@@ -21,7 +21,7 @@
      <TextBlock Text="最新版本" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
-<local:MyCard Title="最新版本 Release-V1.0-2" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
+<local:MyCard Title="最新版本 Beta-V1.0-4" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
     <StackPanel Margin="15,40,15,10">
         <Grid Margin="0,0,0,8">
             <Grid.ColumnDefinitions>
@@ -30,7 +30,7 @@
             </Grid.ColumnDefinitions>
             <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
                 <StackPanel Margin="15,40,15,10">
-                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/Grass.png" />
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
                         <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
@@ -212,7 +212,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2025/3/9 Release-V1.0" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="2025/3/9 Beta-V1.0-3" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
         <Grid Margin="0,0,0,8">
             <Grid.ColumnDefinitions>
@@ -221,7 +221,7 @@
             </Grid.ColumnDefinitions>
             <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
                 <StackPanel Margin="15,40,15,10">
-                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/Grass.png" />
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
                         <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
@@ -270,7 +270,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2025/3/9 Release-V1.0-2" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="2025/3/9 Beta-V1.0-4" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="15,40,15,10">
         <Grid Margin="0,0,0,8">
             <Grid.ColumnDefinitions>
@@ -279,7 +279,7 @@
             </Grid.ColumnDefinitions>
             <local:MyCard Title="类型" Margin="1"   Grid.Column="0" Height="auto" >
                 <StackPanel Margin="15,40,15,10">
-                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/Grass.png" />
+                    <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
                     <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
 			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
                         <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="正式版" />
