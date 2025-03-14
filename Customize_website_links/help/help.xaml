@@ -17,7 +17,7 @@
           <ColumnDefinition Width="1*"/>
      </Grid.ColumnDefinitions>
      <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5"  Stretch="Fill" Grid.Column="0" />
-     <TextBlock Text="公告" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+     <TextBlock Text="置顶公告" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
 <Grid Margin="0,0,0,0">
@@ -28,14 +28,7 @@
             <local:MyCard Title="类型" Margin="1"  HasMouseAnimation="False" Grid.Column="0" Height="auto" >
                 <StackPanel Margin="15,40,15,10">
                     <local:MyImage Margin="0,0,0,10" Height="80" HorizontalAlignment="Center" Source="pack://application:,,,/images/Blocks/GrassPath.png" />
-                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
-			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
-                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
-		            </StackPanel>
-                    <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
-			            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
-                        <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
-		            </StackPanel>
+                    
 	            </StackPanel>
             </local:MyCard>
             <StackPanel Margin="0"  Grid.Column="1">
@@ -72,7 +65,12 @@
         </Grid>
 <local:MyCard Title="最新版本 Beta-V1.0-4" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
     <StackPanel Margin="15,40,15,10">
-        
+        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+			<TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="版本类型" />
+            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="测试版" />
+            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="更新日期" />
+            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/9" />
+		</StackPanel>
 	</StackPanel>
 </local:MyCard>
 
