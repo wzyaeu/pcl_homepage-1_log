@@ -22,17 +22,22 @@
 </Grid>
 <local:MyCard Title="置顶公告" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
     <StackPanel Margin="15,40,15,10">
-        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="名称" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="公告主题页面发布！" />
+    <local:MyCard Title="公告信息" Margin="0,0,0,2" HasMouseAnimation="False" VerticalAlignment="Top" Grid.Column="0" Height="auto"  >
+        <StackPanel Margin="25,40,25,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			<TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="类型" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="更新公告" />
             <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="日期" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/14" />
 		</StackPanel>
-        <StackPanel Margin="10">
-            <TextBlock Margin="0,0,0,5" HorizontalAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="{DynamicResource ColorBrush2}" Text="公告主题页面发布！" />
+    </local:MyCard>
+    <local:MyCard Title="公告正文" Margin="0,0,0,2" HasMouseAnimation="False" VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
+        <StackPanel Margin="30,40,30,40">
+            <TextBlock Margin="0,0,0,15" HorizontalAlignment="Center" FontWeight="Bold" FontSize="25" Foreground="{DynamicResource ColorBrush2}" Text="公告主题页面发布！" />
+            <TextBlock Margin="0,0,0,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="公告主题页面发布！" />
+            <TextBlock Margin="0,0,0,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="作者的一些杂言杂碎，或者是一些正经的公告..." />
 	    </StackPanel>
+    </local:MyCard>
+        
 	</StackPanel>
 </local:MyCard>
 <Grid Margin="0,0,0,8">
@@ -45,17 +50,24 @@
      <TextBlock Text="历史公告" FontSize="18" Foreground="{DynamicResource ColorBrush4}" Margin="3,0,3,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
 	 <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="1.5" Stretch="Fill" Grid.Column="2" />
 </Grid>
-<local:MyCard Title="2025/3/14 更新公告 公告主题页面发布！" Margin="0,0,0,10"  VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
+<local:MyCard Title="2025/3/14 更新公告 公告主题页面发布！" Margin="0,0,0,10"  VerticalAlignment="Top" IsSwaped="True" Grid.Column="0" Height="auto" CanSwap="True" >
     <StackPanel Margin="15,40,15,10">
-        <StackPanel Margin="0,0,0,5" Orientation="Horizontal" HorizontalAlignment="Left">
-            <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="名称" />
-            <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="公告主题页面发布！" />
+    <local:MyCard Title="公告信息" Margin="0,0,0,2" HasMouseAnimation="False" VerticalAlignment="Top" Grid.Column="0" Height="auto"  >
+        <StackPanel Margin="25,40,25,10" Orientation="Horizontal" HorizontalAlignment="Left">
 			<TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="类型" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="更新公告" />
             <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush2}" Text="日期" />
             <TextBlock Margin="0,0,10,0" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="2025/3/14" />
 		</StackPanel>
-        <TextBlock Margin="0,0,5,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="公告主题页面发布！" />
+    </local:MyCard>
+    <local:MyCard Title="公告正文" Margin="0,0,0,2" HasMouseAnimation="False" VerticalAlignment="Top" Grid.Column="0" Height="auto" CanSwap="True" >
+        <StackPanel Margin="30,40,30,40">
+            <TextBlock Margin="0,0,0,15" HorizontalAlignment="Center" FontWeight="Bold" FontSize="25" Foreground="{DynamicResource ColorBrush2}" Text="公告主题页面发布！" />
+            <TextBlock Margin="0,0,0,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="公告主题页面发布！" />
+            <TextBlock Margin="0,0,0,0" HorizontalAlignment="Center" FontSize="14" Foreground="{DynamicResource ColorBrush1}" Text="作者的一些杂言杂碎，或者是一些正经的公告..." />
+	    </StackPanel>
+    </local:MyCard>
+        
 	</StackPanel>
 </local:MyCard>
 
